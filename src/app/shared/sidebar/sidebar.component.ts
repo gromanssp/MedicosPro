@@ -9,7 +9,7 @@ export class SidebarComponent implements OnInit {
 
   // list = document.querySelectorAll('.navigation li');
   activo: string = 'activo';
-  
+
   constructor() { }
 
   ngOnInit(): void {
