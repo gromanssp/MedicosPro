@@ -16,6 +16,12 @@ import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    SidebarComponent,
+    HeaderComponent,
+    BreadcrumbsComponent,
+    NopagefoundComponent
   ]
 })
 export class SharedModule { }
